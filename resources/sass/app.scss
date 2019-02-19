@@ -1,0 +1,44 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.message {
+  display: flex !important;
+}
+
+.message.send {
+  align-items: flex-start !important;
+  flex-direction: column !important;
+}
+
+.message.send > p {
+  max-width: 450px;
+  background: lightseagreen;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.message.received {
+  align-items: flex-end !important;
+  flex-direction: column !important;
+}
+
+.message.received > p {
+  max-width: 450px;
+  background: lightskyblue;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
